@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "ImplementationDataTypes.h"
+#include "ApplicationInterface.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
