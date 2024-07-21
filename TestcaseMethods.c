@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include <assert.h>
 #include "ImplementationDataTypes.h"
 #include "ApplicationInterface.h"
+#include "ConfigurableInterface.h"
 
-void testNumberToPair(int pairNumber,
-    MajorColor expectedMajor,
-    MinorColor expectedMinor)
+void testNumberToPair(int pairNumber,MajorColor expectedMajor,MinorColor expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
@@ -14,10 +14,7 @@ void testNumberToPair(int pairNumber,
     assert(colorPair.minorColor == expectedMinor);
 }
 
-void testPairToNumber(
-    MajorColor major,
-    MinorColor minor,
-    int expectedPairNumber)
+void testPairToNumber(MajorColor major,MinorColor minor,int expectedPairNumber)
 {
     ColorPair colorPair;
     colorPair.majorColor = major;
