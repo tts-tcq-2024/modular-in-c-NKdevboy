@@ -18,5 +18,5 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 }
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
-    return colorPair->majorColor * numberOfMinorColors + colorPair->minorColor + 1;
+    return colorPair->majorColor * MINORCOLORNAMESSIZE + colorPair->minorColor + 1;
 }
