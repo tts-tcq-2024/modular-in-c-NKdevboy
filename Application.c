@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "ImplementationDataTypes.h"
 #include "ConfigurableInterface.h"
+#include "Application.h"
 
 const char* MajorColorNames[] = MAJORCOLORNAMES;
 const char* MinorColorNames[] = MINORCOLORNAMES;
