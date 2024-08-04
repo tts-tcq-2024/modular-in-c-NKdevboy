@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "ImplementationDataTypes.h"
-#include "ApplicationInterface.h"
+#include "Application.h"
 #include "ConfigurableInterface.h"
 
 void testNumberToPair(int pairNumber,MajorColor expectedMajor,MinorColor expectedMinor)

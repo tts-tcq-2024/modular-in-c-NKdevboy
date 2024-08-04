@@ -1,5 +1,6 @@
 #include "ConfigurableInterface.h"
 #include "manual_generator.h"
+#include "Application.h"
 #include <stdio.h>
 
 extern const char* MajorColorNames[];
